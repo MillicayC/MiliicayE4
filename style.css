@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&family=Open+Sans:wght@600&display=swap');
+
+body{
+    background-color: rgb(93, 88, 88);
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.navbar{
+    width: 98%;
+    height: 150px;
+    background-color: black;
+    margin-top: 0.55%;
+    display: flex;
+    cursor: none;
+}
+
+.contenedores{
+    width: 50%;
+    height: 150px;
+    background-color: rgba(12,12,13,255);
+    box-sizing: border-box;
+}
+
+.logo{
+    width 95%;
+    height: 140px;
+    margin: 2px 2px 2px 50px; 
+}
+
+.subcontenedor{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0%;
+    margin-top: 8%;
+}
+
+a{
+    text-decoration: none;
+    color: rgba(255,255,255,255);
+    font-size: x-large;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+.a:hover{
+background-color: brown;
+}
+.section1{
+    width: 98%;
+    height: 450px;
+    background-color: rgb(93, 88, 88);
+    margin: 20px;
+    display: flex;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+.quienes_somos{
+    width: 49%;
+    height: 400px;
+    background-color: rgb(93, 88, 88);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.texto{
+    margin-top: 0%;
+}
+.imagen_de_quienes_somos{
+    width: 49%;
+    height: 400px;
+    justify-content: center;
+    margin-left: 25px;
+    opacity: 1;
+}
+.tamanoimagen{
+    width: 100%;
+    height: 100%;
+}
+.section2{
+    width: 98%;
+    height: 100px;
+    background-color: rgb(93, 88, 88);
+    margin: 20px;
+    text-align: center;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+ .btns{
+     display: flex;
+     justify-content: space-around;
+ }
+
+ .button{
+     text-decoration: solid;
+     margin-top: 10%;
+     width: 40%;
+     height: 40%;
+     cursor: pointer;
+     font-family: 'Montserrat Alternates', sans-serif;
+     font-family: 'Open Sans', sans-serif;
+     font-size: medium;
+     border-radius: 6px;
+ }
+
+ .button:hover{
+     background-color: brown;
+ }
