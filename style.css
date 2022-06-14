@@ -27,7 +27,6 @@ body{
 }
 
 .logo{
-    width 95%;
     height: 140px;
     margin: 2px 2px 2px 50px; 
 }
@@ -49,6 +48,7 @@ a{
 }
 .a:hover{
 background-color: brown;
+
 }
 .section1{
     width: 98%;
@@ -59,6 +59,7 @@ background-color: brown;
     font-family: 'Montserrat Alternates', sans-serif;
     font-family: 'Open Sans', sans-serif;
 }
+
 .quienes_somos{
     width: 49%;
     height: 400px;
@@ -67,6 +68,7 @@ background-color: brown;
     flex-direction: column;
     text-align: center;
 }
+
 .texto{
     margin-top: 0%;
 }
@@ -89,6 +91,8 @@ background-color: brown;
     text-align: center;
     font-family: 'Montserrat Alternates', sans-serif;
     font-family: 'Open Sans', sans-serif;
+    margin-bottom: 1px;
+    font-size: 20px;
 }
 
  .btns{
@@ -111,3 +115,80 @@ background-color: brown;
  .button:hover{
      background-color: brown;
  }
+
+ .titulo{
+    text-decoration: solid;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 50px;
+    margin-bottom: 0%;
+    margin-top: 1%;
+    text-decoration: underline;
+    text-align: center;
+ }
+
+ .textosection3{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    margin-bottom: 0%;
+    margin-top: 1%;
+    text-align: center;
+ }
+
+ .logochico{
+    width: 50px;
+    height: 50px;
+ }
+
+ .textosection4{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    margin-bottom: 0%;
+    margin-top: 1%;
+    text-align: center;
+    }
+
+.contenedorsection3{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 40px;
+}
+
+.subcontenedor3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    padding: 10%;
+}
+
+.contenedorsection4{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 60px;
+    box-sizing: border-box;
+}
+
+.subcontenedor4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    box-sizing: border-box; 
+}
+
+.subtitulossecciones3y4{
+    margin-bottom: 0;
+}
+
+.subtexto3y4{
+    margin: 0;
+}
